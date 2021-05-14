@@ -1,0 +1,27 @@
+create table geometries (name varchar,geom geometry);
+
+insert into geometries values
+	('11 - CFX','POINT(-118.287932 34.022003)'),
+	('12 - BDX','POINT(-118.289883 34.023839)'),
+	('13 - Coliseum','POINT(-118.287832 34.013981)'),
+	('14 - LRC','POINT(-118.288417 34.024390)'),
+	('15 - Gym','POINT(-118.285926 34.024817)'),
+	('21 - TG','POINT(-118.282423 34.021285)'),
+	('22 - SCA','POINT(-118.2862392 34.0202361)'),
+	('23 - JFF','POINT(-118.282357 34.018719)'),
+	('24 - RMH','POINT(-118.280976 34.019375)'),
+	('25 - JKP','POINT(-118.282684 34.018922)'),
+	('31 - BIT','POINT(-118.286027 34.022429)'),
+	('32 - CTV','POINT(-118.285537 34.022970)'),
+	('33 - DRC','POINT(-118.289937 34.022692)'),
+	('34 - AHF','POINT(-118.284569 34.019764)'),
+	('35 - HAR','POINT(-118.286972 34.018886)');
+	
+SELECT ST_AsText(ST_ConvexHull(ST_Collect(d.geom))) As the_geom
+FROM geometries As d;
+
+select g1.name,g2.name,ST_Distance(g1.geom,g2.geom) as dist
+from
+geometries as g1, geometries g2
+where g1.name <> g2.name 
+order by g1.name,dist;

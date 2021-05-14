@@ -1,0 +1,148 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+	<Document>
+		<Style id="z1">
+			<IconStyle>
+				<Icon>
+					<href>
+						http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="z2">
+			<IconStyle>
+				<Icon>
+					<href>
+						http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="z3">
+			<IconStyle>
+				<Icon>
+					<href>
+						https://www.google.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Folder>
+			<name>Athletics</name>
+			<description>Athletics fasilities</description>
+			<Placemark>
+				<name>11 - CFX</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.287932,34.022003</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12 - BDX</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.289883,34.023839</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<name>13 - Coliseum</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+				<coordinates>-118.287832,34.013981</coordinates>
+			</Point>
+			</Placemark>
+			<Placemark>
+				<name>14 - LRC</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.288417,34.024390</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15 - USCV Gym</name>
+				<styleUrl>#z1</styleUrl>
+				<Point>
+					<coordinates>-118.285926,34.024817</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Dinings</name>
+			<description>Dinings fasilities</description>
+			<Placemark>
+				<name>21 - TGrounds</name>
+				<styleUrl>#z2</styleUrl>
+				<Point>
+					<coordinates>-118.282423,34.021285</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>22 - SCA</name>
+				<styleUrl>#z2</styleUrl>
+				<Point>
+					<coordinates>-118.2862392,34.0202361</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>23 - JFF</name>
+				<styleUrl>#z2</styleUrl>
+				<Point>
+					<coordinates>-118.282357,34.018719</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>24 - RMH</name>
+				<styleUrl>#z2</styleUrl>
+				<Point>
+					<coordinates>-118.280976,34.019375</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>25 - JKP</name>
+				<styleUrl>#z2</styleUrl>
+				<Point>
+					<coordinates>-118.282684,34.018922</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Galleries</name>
+			<description>Art fasilities</description>
+			<Placemark>
+				<name>31 - BIT</name>
+				<styleUrl>#z3</styleUrl>
+				<Point>
+					<coordinates>-118.286027,34.022429</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>32 - CTV</name>
+				<styleUrl>#z3</styleUrl>
+				<Point>
+					<coordinates>-118.285537,34.022970</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>33 - DRC</name>
+				<styleUrl>#z3</styleUrl>
+				<Point>
+					<coordinates>-118.289937,34.022692</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>34 - AHF</name>
+				<styleUrl>#z3</styleUrl>
+				<Point>
+					<coordinates>-118.284569,34.019764</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>35 - HAR</name>
+				<styleUrl>#z3</styleUrl>
+				<Point>
+					<coordinates>-118.286972,34.018886</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
